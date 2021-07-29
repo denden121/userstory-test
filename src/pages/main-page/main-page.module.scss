@@ -1,0 +1,15 @@
+.avatar {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+tr{
+  &:hover {
+    background-color: #F8F3F1;
+  }
+
+  &:active {
+    background-color: #E9DDDB;
+  }
+}

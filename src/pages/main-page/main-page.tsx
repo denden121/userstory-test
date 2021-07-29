@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import UserApi from '../../api/user.api'
 import {UserInterface} from "../../interfaces/user.interface";
 import {Container, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@material-ui/core";
-import styles from './main-page.module.css';
+import styles from './main-page.module.scss';
 import {useHistory} from "react-router-dom";
 
 function MainPage() {

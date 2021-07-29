@@ -3,7 +3,7 @@ import {UserInterface} from "../../interfaces/user.interface";
 import UserApi from "../../api/user.api";
 import {useParams} from "react-router-dom";
 import {Container} from "@material-ui/core";
-import styles from './user-page.module.css';
+import styles from './user-page.module.scss';
 
 function UserPage() {
     const [loading, setLoading] = useState(true);
